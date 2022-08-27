@@ -1,0 +1,14 @@
+import pandas as pd
+
+print("""int a = 588,arr[588];\n
+            float decimal==588.088;\n
+            char letter = "h";\n
+            double big_num=123456789;""")
+
+symbol_table={
+    "data type":["int","float","char","double","int"],
+    "identifiers":["a","decimal","letter","big_num"," arr[size = 588]"],
+}
+df = pd.DataFrame(symbol_table,index={1,2,3,4,5}
+
+df
